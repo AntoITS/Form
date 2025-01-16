@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = "stylesheet" href = "style.css">
+  <script src="script.js" defer></script>
+  <title>Form con API</title>
+</head>
+<body>
+  
+  <h1>Esperimenti con i Form</h1>
+  <hr>
+  <h2>Form con post</h2>
+
+  <form  method="post"  action="https://webhook.site/28d2e19a-3cd5-40e0-9d3e-cf7a73b02774">
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" name="nome" placeholder="Inserisci qui il tuo nome"><br>
+    <label for="cognome">Cognome:</label><br>
+    <input type="text" id="cognome" name="cognome" placeholder="Inserisci qui il tuo cognome"><br><br>
+    <input type="submit" value="Submit" class="button">
+  </form>
+
+  <h2>Form con JS</h2>
+
+  <form onsubmit="">
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nomee" name="nome" placeholder="Inserisci qui il tuo nome"><br>
+    <label for="cognome">Cognome:</label><br>
+    <input type="text" id="cognomee" name="cognome" placeholder="Inserisci qui il tuo cognome"><br><br>
+    <input type="button" class="button" onclick="conferma()" value="Submit">
+  </form>
+
+</body>
+</html>
+ 
